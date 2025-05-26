@@ -1,8 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Title</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Watch Authentication</title>
+  <style>
+    :root {
+      --primary-color: #2c3e50;
+      --accent-color: #1abc9c;
+      --bg-color: #f4f4f4;
+      --font-color: #333;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--font-color);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 90%;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      color: var(--primary-color);
+      font-size: 1.75rem;
+    }
+
+    .status {
+      margin-top: 1.5rem;
+      padding: 1rem;
+      background: var(--accent-color);
+      color: white;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    .details {
+      margin-top: 1rem;
+      text-align: left;
+    }
+
+    .details p {
+      margin: 0.5rem 0;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 1.4rem;
+      }
+      .status {
+        font-size: 1rem;
+      }
+      .details p {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
 </head>
+
 <body>
+  <div class="container">
+    <h1>✅ Watch Authentication Verified</h1>
+    <div class="status">This timepiece is an authentic SeikoJust 4R35</div>
+    <div class="details">
+      <p><strong>Watch Model:</strong> 4R35 SeikoJust</p>
+      <p><strong>Bracelet:</strong> Jubilee</p>
+      <p><strong>Dial Color:</strong> Dark Green</p>
+      <p><strong>Watchmaker:</strong> David Jawhar</p>
+      <p><strong>Owner:</strong> David El Ghoussein</p>
+      <p><strong>Authenticated on:</strong> 12/05/2025</p>
+    </div>
+  </div>
 </body>
+
 </html>
