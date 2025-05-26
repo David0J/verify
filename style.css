@@ -88,6 +88,14 @@ h1 {
     height: 100%;
     padding: 2rem 1.2rem;
   }
+
+  .logo-wrapper {
+    margin-bottom: 0.5rem;
+  }
+
+  .logo {
+    max-width: 70px;
+  }
 }
 
 @keyframes pulse {
