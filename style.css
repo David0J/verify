@@ -89,14 +89,14 @@ h1 {
     padding: 2rem 1.2rem;
   }
 
-  .logo-wrapper {
-    margin-bottom: 0.5rem;
+  .logo {
+    width: 80px;
+    max-width: 100%;
+    height: auto;
   }
 
-  .logo {
-    max-width: 70px;
-    width: 100%;
-    height: auto;
+  .logo-wrapper {
+    margin-bottom: 0.5rem;
   }
 }
 
@@ -112,13 +112,14 @@ h1 {
 }
 
 .logo-wrapper {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.logo {
-  max-width: 100px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .logo {
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
